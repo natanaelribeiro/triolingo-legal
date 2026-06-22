@@ -1,0 +1,76 @@
+h1 {
+    color: rgb(0, 47, 255);
+    max-width: 100%;
+}
+
+.subtitulo {
+    text-align: center;
+    color: rgb(234, 0, 255);
+}
+#batata {
+    margin: 50px;
+    
+}
+.oi {
+    text-align: center;
+}
+.caixa{
+    display: inline-block;
+    content:olaaaaaaaaa;
+  
+    padding: 20px;
+    border: 50px solid rgb(229, 255, 0);
+    margin: 30px;
+    background-color: rgb(255, 0, 0);
+}
+ .cor{
+    background-color: rgb(0, 247, 62)
+   
+ }
+ .veia{
+    display: inline-block;
+    content:olaaaaaaaaa;
+  
+    padding: 20px;
+    border: 50px solid rgb(236, 9, 131);
+    margin: 30px;
+    background-color: rgb(240, 240, 240);
+ }
+ a {
+  color: blue; /* Cor normal do link */
+}
+
+a:hover {
+  color: red; /* Cor do link quando o mouse passa por cima */
+  text-decoration: underline; /* Adiciona sublinhado */
+}
+
+ a {
+    background-color: aqua;
+ }
+.animacao-texto {
+    text-align: center;
+    animation: maluko 4s infinite;
+}
+
+@keyframes maluko {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(300px) rotate(10deg);
+    }
+
+    50% {
+        transform: translateX(0) rotate(-10deg);
+    }
+
+    75% {
+        transform: translateX(-300px) rotate(10deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
